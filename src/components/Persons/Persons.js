@@ -15,7 +15,7 @@ class Persons extends PureComponent {
 
   componentDidMount() {
     console.log('[Persons.js] Inside componentDidMOunt()')
-    this.lastPersonRef.current.focus()
+    this.lastPersonRef.current.focus() 
   }
 
   componentWillReceiveProps(nextProps) {
@@ -49,7 +49,7 @@ class Persons extends PureComponent {
           name={person.name}
           position={index}
           age={person.age}
-          forwardedRef={this.lastPersonRef}
+          ref={this.lastPersonRef}
           key={person.id}
           changed={event => this.props.changed(event, person.id)}
         />
