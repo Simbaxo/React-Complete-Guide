@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-Below you will fin
-
 ## Table of Contents
 
 - [Updating to New Releases](#updating-to-new-releases)
